@@ -195,12 +195,12 @@
 }
 
 .left-ear {
-  top: 90px;
+  top: 85px;
   left: -15px;
 }
 
 .right-ear {
-  top: 90px;
+  top: 85px;
   right: -15px;
 }
 
@@ -248,7 +248,7 @@
   left: 0;
   right: 10;
   bottom: 0;
-  top: -60px;
+  top: -55px;
 }
 
 .glass-handle-right {
@@ -260,7 +260,7 @@
   left: 10;
   right: 0;
   bottom: 0;
-  top: -60px;
+  top: -55px;
 } 
 
 .left-eye,
