@@ -60,8 +60,8 @@
 .curl5,
 .curl6 {
   position: absolute;
-  height: 150px;
-  width: 150px;
+  height: 135px;
+  width: 135px;
   background-color: #42302a;
   border-radius: 50%;
   margin: auto;
@@ -69,7 +69,7 @@
 
 .curl5{
   bottom: 0;
-  right: 200px;
+  right: 190px;
   left: 0;
   top: 100px;
 }
@@ -77,7 +77,7 @@
 .curl6{
   bottom: 0;
   right: 0;
-  left: 200px;
+  left: 190px;
   top: 100px; 
 }
 
@@ -267,7 +267,7 @@
 .reka-right-eye{
   height: 15px;
   width: 15px;
-  background-color: #522304;
+  background-color: #5d2b09;
   border-radius: 50%;
   position: absolute;
   margin: auto;
@@ -284,6 +284,31 @@
   left: -90px;
   top: -30px;
 }
+
+.left-eyebrow,
+.right-eyebrow{
+  position: absolute;
+  width: 45px;
+  height: 20px;
+  border-radius: 50%;
+  border-top: 5px solid #2f221e;
+  margin: auto;
+  bottom: 0;
+  right: 0 
+}
+
+.left-eyebrow {
+  left: 100px;
+  top: -45px;
+  transform: rotate(10deg);
+}
+
+.right-eyebrow {
+  left: -100px;
+  top: -45px;
+  transform: rotate(-10deg);
+}
+
 
 .reka-nose {
   position: absolute;
@@ -331,19 +356,7 @@
   margin: auto;
   top: 50px;
 }
-
-.cur{
-  height: 50px;
-  width: 50px;
-  background-color: #522304;
-  border-radius: 50%;
-  position: absolute;
-  margin: auto;
-  bottom: 0;
-  right: 0
-}
  
-
 /* .reka-tongue {
   position: relative;
   width: 40px;
@@ -353,3 +366,45 @@
   margin: auto;
   top: 10px;
 } */
+
+.party-hat {
+  width:0; 
+  height:0; 
+  border-radius: 10% 10% 10% 10%;
+  border-bottom:120px solid rgb(219, 192, 235);
+  border-left:57px solid transparent;
+  border-right:57px solid transparent; 
+  transform: rotate(-30deg);
+  position: absolute;
+  margin: auto;
+  bottom: 0;
+  right: 120px;
+  left: -40px;
+  top: -310px;
+}
+
+.spot1,
+.spot2,
+.spot3 {
+  height: 15px;
+  width: 15px;
+  background-color: #7a9406;
+  border-radius: 50%;
+  position: absolute;
+  margin: auto;
+}
+
+.spot1 {
+  bottom: -90px;
+  right: 10px;
+}
+
+.spot2 {
+  bottom: -90px;
+  right: -25px;
+}
+
+.spot3 {
+  bottom: -50px;
+  right: -5px;
+}

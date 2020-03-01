@@ -24,8 +24,16 @@ function RekaFace() {
 
       <div class='reka-face'>
         <div class='reka-parting'></div>
+        {/* <div class='party-hat'> */}
+          {/* <div class='spot1'></div>
+          <div class='spot2'></div>
+          <div class='spot3'></div>
+        </div> */}
+
         {/* <div class='curl7'></div>
           <div class='curl8'></div> */}
+        <div class='left-eyebrow'></div>
+        <div class='right-eyebrow'></div>
         <div class='reka-left-ear'></div>
         <div class='reka-right-ear'></div>
         <div class='reka-left-glass'></div>
