@@ -12,10 +12,11 @@ function RekaFace() {
       <div class='curl4'></div>
       <div class='curl5'></div>
       <div class='curl6'></div>
+      <div class='curl9'></div>
 
       <div class='reka-body-container'>
         <div class='reka-body'>
-          <div class='napkin'></div>
+          {/* <div class='napkin'></div> */}
         </div>
       </div>
 
@@ -30,10 +31,10 @@ function RekaFace() {
           <div class='spot3'></div>
         </div> */}
 
-        {/* <div class='curl7'></div>
-          <div class='curl8'></div> */}
-        <div class='left-eyebrow'></div>
-        <div class='right-eyebrow'></div>
+        <div class='curl7'></div>
+        <div class='curl8'></div>
+        {/* <div class='left-eyebrow'></div>
+        <div class='right-eyebrow'></div> */}
         <div class='reka-left-ear'></div>
         <div class='reka-right-ear'></div>
         <div class='reka-left-glass'></div>
@@ -41,6 +42,8 @@ function RekaFace() {
         <div class='reka-bridge'></div>
         <div class='glass-handle-left'></div>
         <div class='glass-handle-right'></div>
+        <div class='other-eye-left'></div>
+        <div class='other-eye-right'></div>
         <div class='reka-left-eye'>
           <div class='eye-left'></div>
         </div>
